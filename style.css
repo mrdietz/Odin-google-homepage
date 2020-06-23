@@ -1,3 +1,4 @@
+/*
 .container {
     display: inline;
     max-width: 900px;
@@ -9,25 +10,35 @@
     grid-template-rows: 140px 1800px 140px;
     grid-template-columns: 1100px; 
   }
+*/
   
 body {
     font-family: arial, sans-serif;
 }
 
 header {
-    background-color: dodgerblue;
-    grid-area: header;
+    width: 100%;
+    margin: auto;
+    background-color: transparent;
+    /*grid-area: header;*/
 }
 
-search {
-    background-color: limegreen;
-    grid-area: search;
+#search {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    width: 100%;
+    margin: auto;
+    background-color: transparent;
+    /*grid-area: search;*/
     align-content: center;
 }
 
 footer {
-    background-color: dodgerblue;
-    grid-area: footer;
+    width: 100%;
+    margin: auto;
+    background-color: transparent;
+    /*grid-area: footer;*/
 }
 
 ul {
